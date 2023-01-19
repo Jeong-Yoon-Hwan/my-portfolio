@@ -5,6 +5,9 @@ import { HashRouter, Routes, Route } from 'react-router-dom';
 import { Link } from "react-router-dom";
 import Title from './component/Title';
 import FirstList from './pages/FirstList';
+import SecondList from './pages/SecondList';
+import ThirdList from './pages/ThirdList';
+import FourthList from './pages/FourthList';
 
 function App() {
   return (
@@ -23,9 +26,9 @@ function App() {
             <Route path="/" element={<FirstList/>}></Route>
             <Route path="/portfolio" element={<FirstList/>}></Route>
             <Route path="/first" element={<FirstList/>}></Route>
-            <Route path="/second" element={<FirstList/>}></Route>
-            <Route path="/third" element={<FirstList/>}></Route>
-            <Route path="/fourth" element={<FirstList/>}></Route>
+            <Route path="/second" element={<SecondList/>}></Route>
+            <Route path="/third" element={<ThirdList/>}></Route>
+            <Route path="/fourth" element={<FourthList/>}></Route>
           </Routes>
         </Main>
       </HashRouter>
