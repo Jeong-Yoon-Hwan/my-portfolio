@@ -24,7 +24,7 @@ function App() {
         <Main>
         <Routes>
             <Route path="/" element={<FirstList/>}></Route>
-            <Route path="/portfolio" element={<FirstList/>}></Route>
+            <Route path="/my-portfolio" element={<FirstList/>}></Route>
             <Route path="/first" element={<FirstList/>}></Route>
             <Route path="/second" element={<SecondList/>}></Route>
             <Route path="/third" element={<ThirdList/>}></Route>
