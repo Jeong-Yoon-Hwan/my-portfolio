@@ -1,17 +1,26 @@
 
+import styled from "styled-components";
+import SlideBox from "../component/SlideBox";
+import firstImg1 from "../images/first/1.png";
+import firstImg2 from "../images/first/2.png";
+import firstImg3 from "../images/first/3.png";
+import firstImg4 from "../images/first/4.png";
+
+
 const FirstList = ()=>{
+
+  const arr = ['/images/first/1.png','/images/first/2.png','/images/first/3.png','/images/first/4.png'];
   return(
     <Component>
       {/* 헤더 */}
       <Title>
         <h1>가상화폐 매매 + 채팅 사이트</h1>
-        <p>2022.09 - 2022.10</p>
+        <p>2022.09 - 2022.10</p>   
       </Title>
       {/* 메인화면 */}
       <Main>
         <section>
-          <SlideBox img={...arr}></SlideBox>
-         
+          <SlideBox img={[firstImg1,firstImg2,firstImg3,firstImg4]}></SlideBox>
         </section>
         <section>
           <Skill>
@@ -56,7 +65,7 @@ const FirstList = ()=>{
 }
 export default FirstList;
 
-const Compoenet = styled.div`
+const Component = styled.div`
   width:100%;
   height:100%;
   background-color: white;
