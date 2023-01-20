@@ -11,56 +11,57 @@ const FirstList = ()=>{
 
   const arr = ['/images/first/1.png','/images/first/2.png','/images/first/3.png','/images/first/4.png'];
   return(
-    <Component>
-      {/* 헤더 */}
-      <Title>
-        <h1>가상화폐 매매 + 채팅 사이트</h1>
-        <p>2022.09 - 2022.10</p>   
-      </Title>
-      {/* 메인화면 */}
-      <Main>
-        <section>
-          <SlideBox img={[firstImg1,firstImg2,firstImg3,firstImg4]}></SlideBox>
-        </section>
-        <section>
-          <Skill>
-            <div>
-              <div style={{width:100}}><b>✔ 주요기능</b></div>
-              <div style={{textAlign:'left',width:'70%'}}>가상화폐 정보 조회하기, 가상화폐 매수, 매도하기, 뉴스 조회하기, 채팅으로 소통하기</div>
-            </div>
-            <div>
-              <div style={{width:100}}><b>✔ GitHub</b></div>
-              <div style={{textAlign:'left',width:'70%'}}><a style={{textDecoration: "none",color:'tomato',fontWeight:'bold'}} href="https://github.com/Jeong-Yoon-Hwan/KDT-ProjectC-Team7.git">https://github.com/Jeong-Yoon-Hwan/KDT-ProjectC-Team7.git</a></div>
-            </div>
-            <div>
-              <div style={{width:100}}><b>✔ Front-end</b></div>
-              <div style={{textAlign:'left',width:'70%'}}>react, javascript</div>
-            </div>
-            <div>
-              <div style={{width:100}}><b>✔ Back-end</b></div>
-              <div style={{textAlign:'left',width:'70%'}}>node.js, express</div>
-            </div>
-            <div>
-              <div style={{width:100}}><b>✔ Database</b></div>
-              <div style={{textAlign:'left',width:'70%'}}>mysql</div>
-            </div>
+    // <Component>
+    //   {/* 헤더 */}
+    //   <Title>
+    //     <h1>가상화폐 매매 + 채팅 사이트</h1>
+    //     <p>2022.09 - 2022.10</p>   
+    //   </Title>
+    //   {/* 메인화면 */}
+    //   <Main>
+    //     <section>
+    //       <SlideBox img={[firstImg1,firstImg2,firstImg3,firstImg4]}></SlideBox>
+    //     </section>
+    //     <section>
+    //       <Skill>
+    //         <div>
+    //           <div style={{width:100}}><b>✔ 주요기능</b></div>
+    //           <div style={{textAlign:'left',width:'70%'}}>가상화폐 정보 조회하기, 가상화폐 매수, 매도하기, 뉴스 조회하기, 채팅으로 소통하기</div>
+    //         </div>
+    //         <div>
+    //           <div style={{width:100}}><b>✔ GitHub</b></div>
+    //           <div style={{textAlign:'left',width:'70%'}}><a style={{textDecoration: "none",color:'tomato',fontWeight:'bold'}} href="https://github.com/Jeong-Yoon-Hwan/KDT-ProjectC-Team7.git">https://github.com/Jeong-Yoon-Hwan/KDT-ProjectC-Team7.git</a></div>
+    //         </div>
+    //         <div>
+    //           <div style={{width:100}}><b>✔ Front-end</b></div>
+    //           <div style={{textAlign:'left',width:'70%'}}>react, javascript</div>
+    //         </div>
+    //         <div>
+    //           <div style={{width:100}}><b>✔ Back-end</b></div>
+    //           <div style={{textAlign:'left',width:'70%'}}>node.js, express</div>
+    //         </div>
+    //         <div>
+    //           <div style={{width:100}}><b>✔ Database</b></div>
+    //           <div style={{textAlign:'left',width:'70%'}}>mysql</div>
+    //         </div>
             
-          </Skill>
-          <Content>
-            <div>가상화폐를 채팅과 함께  좀 더 재밌게 이용할 수 있도록 구현해본 웹 사이트 입니다.</div><br></br>
-            <div>차트 조회와 뉴스 조회 기능을 넣어, 정보를 제공받을 수 있도록 만들었습니다.</div>
-            <div>업비트에서 제공해주는 API를 활용하면서 데이터를 가공하고 출력하는데 많은 도움이 되었습니다.</div>
-            <br></br>
+    //       </Skill>
+    //       <Content>
+    //         <div>가상화폐를 채팅과 함께  좀 더 재밌게 이용할 수 있도록 구현해본 웹 사이트 입니다.</div><br></br>
+    //         <div>차트 조회와 뉴스 조회 기능을 넣어, 정보를 제공받을 수 있도록 만들었습니다.</div>
+    //         <div>업비트에서 제공해주는 API를 활용하면서 데이터를 가공하고 출력하는데 많은 도움이 되었습니다.</div>
+    //         <br></br>
             
-            <div>뉴스페이지를 구현하면서 크롤링을 하기 위해 파이썬을 접하게 되었습니다. </div>
-            <div>데이터를 한꺼번에 가져오기때문에 재가공이 필요했는데 객체화 시키는 연습이 많이 되어 의미있었던 것 같습니다.</div><br></br>
+    //         <div>뉴스페이지를 구현하면서 크롤링을 하기 위해 파이썬을 접하게 되었습니다. </div>
+    //         <div>데이터를 한꺼번에 가져오기때문에 재가공이 필요했는데 객체화 시키는 연습이 많이 되어 의미있었던 것 같습니다.</div><br></br>
 
-            <div>채팅기능을 구현하면서 웹소켓으로 클라이언트와 서버간의 통신을 구현하게 되었고, </div>
-            <div>양방향 통신이 어떻게 이루어지는지 공부할 수 있었습니다.</div>
-          </Content>
-        </section>
-      </Main>
-    </Component>
+    //         <div>채팅기능을 구현하면서 웹소켓으로 클라이언트와 서버간의 통신을 구현하게 되었고, </div>
+    //         <div>양방향 통신이 어떻게 이루어지는지 공부할 수 있었습니다.</div>
+    //       </Content>
+    //     </section>
+    //   </Main>
+    // </Component>
+    <div>first</div>
   )
 }
 export default FirstList;
