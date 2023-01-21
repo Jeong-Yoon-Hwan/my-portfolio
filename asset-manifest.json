@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.0c1d213d.css",
-    "main.js": "/my-portfolio/static/js/main.1f5aa755.js",
+    "main.js": "/my-portfolio/static/js/main.9eb329c0.js",
     "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/NanumGothic-Regular.ttf": "/my-portfolio/static/media/NanumGothic-Regular.6c84540de7730f833d6c.ttf",
     "static/media/DoHyeon-Regular.ttf": "/my-portfolio/static/media/DoHyeon-Regular.33a15385076163ccf1b8.ttf",
-    "static/media/4.png": "/my-portfolio/static/media/4.f1e284066b4e836dad65.png",
-    "static/media/1.png": "/my-portfolio/static/media/1.4973387596000d5a57d7.png",
-    "static/media/2.png": "/my-portfolio/static/media/2.a8173e77d6fe28328225.png",
     "static/media/3.png": "/my-portfolio/static/media/3.13c94a67fd81721c9d73.png",
+    "static/media/1.png": "/my-portfolio/static/media/1.4973387596000d5a57d7.png",
+    "static/media/4.png": "/my-portfolio/static/media/4.f1e284066b4e836dad65.png",
+    "static/media/2.png": "/my-portfolio/static/media/2.a8173e77d6fe28328225.png",
     "static/media/logo.svg": "/my-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/my-portfolio/index.html",
     "main.0c1d213d.css.map": "/my-portfolio/static/css/main.0c1d213d.css.map",
-    "main.1f5aa755.js.map": "/my-portfolio/static/js/main.1f5aa755.js.map",
+    "main.9eb329c0.js.map": "/my-portfolio/static/js/main.9eb329c0.js.map",
     "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0c1d213d.css",
-    "static/js/main.1f5aa755.js"
+    "static/js/main.9eb329c0.js"
   ]
 }
