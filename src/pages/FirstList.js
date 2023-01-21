@@ -8,12 +8,8 @@ import firstImg4 from "../images/first/4.png";
 
 
 const FirstList = ()=>{
-
-  const arr = ['/images/first/1.png','/images/first/2.png','/images/first/3.png','/images/first/4.png'];
+  
   return(
-    
-    
-
     <Component>
       <Title>
         <h1>가상화폐 매매 + 채팅 사이트</h1>
