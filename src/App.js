@@ -13,7 +13,6 @@ function App() {
   return (
     <Compoenet>
       <HashRouter>
-      
         <Nav>
           <Title></Title>
           <Link to="/first" style={{textDecoration: "none",color:'white',fontWeight:'bold'}}><ListBox>Project 1</ListBox></Link>
@@ -64,6 +63,7 @@ const Nav = styled.div`
   flex-direction: column;
   align-items: start;
   gap:10px;
+  
 `
 
 const ListBox = styled.div`
@@ -77,8 +77,10 @@ const ListBox = styled.div`
 
   :hover{
     background-color: tomato;
+    width:260px;
   }
   transition: background 0.5s ease-in-out;
+  transition: width 0.3s ease-in-out;
   
   @media screen and (max-width: 1100px) {
     width:200px;
