@@ -23,11 +23,11 @@ const ThirdList = () =>{
             </div>
             <div>
               <div style={{width:100}}><b>✔ GitHub</b></div>
-              <div style={{textAlign:'left',width:'70%'}}><a style={{textDecoration: "none",color:'tomato',fontWeight:'bold'}} href="https://github.com/Jeong-Yoon-Hwan/KDT-ProjectC-Team7.git">https://github.com/Jeong-Yoon-Hwan/KDT-ProjectC-Team7.git</a></div>
+              <div style={{textAlign:'left',width:'70%'}}><a style={{textDecoration: "none",color:'tomato',fontWeight:'bold'}} href="https://github.com/Jeong-Yoon-Hwan/ProjectB_.git">https://github.com/Jeong-Yoon-Hwan/ProjectB_.git</a></div>
             </div>
             <div>
               <div style={{width:100}}><b>✔ Front-end</b></div>
-              <div style={{textAlign:'left',width:'70%'}}>react, javascript</div>
+              <div style={{textAlign:'left',width:'70%'}}>react, typescript</div>
             </div>
             <div>
               <div style={{width:100}}><b>✔ Back-end</b></div>
