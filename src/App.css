@@ -1,0 +1,16 @@
+*{margin:0;padding:0;box-sizing: border-box;}
+
+@font-face {
+	font-family: "Do Hyeon";
+	src: url(../public/asset/font/DoHyeon/DoHyeon-Regular.ttf);
+}
+
+@font-face {
+	font-family: "Nanum Gothic";
+	src: url(../public/asset/font/Nanum_Gothic/NanumGothic-Regular.ttf);
+}
+
+:root {
+  --font-DoHyeon: "Do Hyeon";
+  --font-NanumGohic:"Nanum Gothic"
+}
