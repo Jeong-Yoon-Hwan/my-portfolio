@@ -41,6 +41,7 @@ const Compoenet = styled.div`
   width:100vw;
   height:100vh;
   display: flex;
+  font-family: var(--font-NanumGohic);
 `
 
 const Main = styled.div`

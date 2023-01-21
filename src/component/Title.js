@@ -23,4 +23,5 @@ const Component = styled.div`
   font-size: 2rem;
   font-weight:bold;
   text-align:center;
+  font-family: var(--font-DoHyeon);
 `
