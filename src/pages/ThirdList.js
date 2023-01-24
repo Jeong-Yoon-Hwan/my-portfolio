@@ -3,10 +3,14 @@ import SlideBox from "../component/SlideBox";
 import Img1 from "../images/third/1.png";
 import Img2 from "../images/third/2.png";
 import Img3 from "../images/third/3.png";
+import { motion } from "framer-motion";
 
 const ThirdList = () =>{
   return(
-    <Component>
+    <Component initial={{opacity:0,translateX:200}}
+    animate={{opacity:1,translateX:0}}
+    transition={{duration:1}}
+    exit={{opacity:0}}>
       <Title>
         <h1>교통정보 사이트</h1>  
         <p>2022.12 - 2023.01</p>   
@@ -68,7 +72,7 @@ const ThirdList = () =>{
 }
 export default ThirdList;
 
-const Component = styled.div`
+const Component = styled(motion.div)`
   width:100%;
   height:100%;
   background-color: white;

@@ -5,12 +5,16 @@ import firstImg1 from "../images/first/1.png";
 import firstImg2 from "../images/first/2.png";
 import firstImg3 from "../images/first/3.png";
 import firstImg4 from "../images/first/4.png";
+import { motion } from "framer-motion";
 
 
 const FirstList = ()=>{
   
   return(
-    <Component>
+    <Component initial={{opacity:0,translateX:200}}
+    animate={{opacity:1,translateX:0}}
+    transition={{duration:1}}
+    exit={{opacity:0}}>
       <Title>
         <h1>가상화폐 매매 & 채팅</h1>
         <p>2022.09 - 2022.10</p>   
@@ -84,7 +88,7 @@ const FirstList = ()=>{
 }
 export default FirstList;
 
-const Component = styled.div`
+const Component = styled(motion.div)`
   width:100%;
   height:100%;
   background-color: white;

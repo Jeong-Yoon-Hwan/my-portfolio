@@ -4,11 +4,15 @@ import Img1  from "../images/second/1.png";
 import Img2 from "../images/second/2.png";
 import Img3 from "../images/second/3.png";
 import Img4 from "../images/second/4.png";
+import { motion } from "framer-motion";
 
 const SecondList = () =>{
   
   return(
-    <Component>
+    <Component initial={{opacity:0,translateX:200}}
+    animate={{opacity:1,translateX:0}}
+    transition={{duration:1}}
+    exit={{opacity:0}}>
       <Title>
         <h1>주식 정보 사이트</h1>
         <p>2022.10 - 2022.11</p>   
@@ -68,7 +72,7 @@ const SecondList = () =>{
 }
 export default SecondList;
 
-const Component = styled.div`
+const Component = styled(motion.div)`
   width:100%;
   height:100%;
   background-color: white;

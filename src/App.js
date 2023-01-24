@@ -8,6 +8,7 @@ import FirstList from './pages/FirstList';
 import SecondList from './pages/SecondList';
 import ThirdList from './pages/ThirdList';
 import FourthList from './pages/FourthList';
+import { motion } from 'framer-motion';
 
 function App() {
   return (
@@ -20,16 +21,18 @@ function App() {
           <Link to="/third" style={{textDecoration: "none",color:'white',fontWeight:'bold'}}><ListBox>교통 정보 사이트</ListBox></Link>
           {/* <Link to="/fourth" style={{textDecoration: "none",color:'white',fontWeight:'bold'}}><ListBox>Project 4</ListBox></Link> */}
         </Nav>
-        <Main>
-          <Routes>
-            <Route path="/" element={<FirstList/>}></Route>
-            <Route path="/my-portfolio" element={<FirstList/>}></Route>
-            <Route path="/first" element={<FirstList/>}></Route>
-            <Route path="/second" element={<SecondList/>}></Route>
-            <Route path="/third" element={<ThirdList/>}></Route>
-            <Route path="/fourth" element={<FourthList/>}></Route>
-          </Routes>
-        </Main>
+        
+          <Main>
+                <Routes>
+                  <Route path="/" element={<FirstList/>}></Route>
+                  <Route path="/my-portfolio" element={<FirstList/>}></Route>
+                  <Route path="/first" element={<FirstList/>}></Route>
+                  <Route path="/second" element={<SecondList/>}></Route>
+                  <Route path="/third" element={<ThirdList/>}></Route>
+                  <Route path="/fourth" element={<FourthList/>}></Route>
+                </Routes>
+          </Main>
+        
       </HashRouter>
     </Compoenet>
   );
@@ -43,13 +46,13 @@ const Compoenet = styled.div`
   font-family: var(--font-NanumGohic);
 `
 
-const Main = styled.div`
+const Main = styled(motion.div)`
   width:100vw;
   height:100vh;
   background-color:#404258;
   display: flex;
   justify-content: center;
-  align-items: center;
+  //align-items: center;
   padding: 50px;
   overflow-y: scroll;
 `
