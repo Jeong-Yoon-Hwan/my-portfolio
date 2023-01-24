@@ -5,12 +5,15 @@ import Img2 from "../images/second/2.png";
 import Img3 from "../images/second/3.png";
 import Img4 from "../images/second/4.png";
 
+import ReactMarkdown from 'https://esm.sh/react-markdown@7';
+
 
 const SecondList = () =>{
+  
   return(
     <Component>
       <Title>
-        <h1>주식 추천 사이트</h1>
+        <h1>주식 정보 사이트</h1>
         <p>2022.10 - 2022.11</p>   
       </Title>
       <Main>
@@ -41,8 +44,24 @@ const SecondList = () =>{
             </div>
             
           </Skill>
-          <Content>
-            <div>주식 추천 사이트.</div><br></br>
+          <Content style={{fontSize:13}}>
+            <div>
+              <h3>✔ 프로젝트 기획</h3><br/>
+              주식 데이터를 활용하여 여러가지 주식 정보를 조회할 수 있도록 구현한 사이트 입니다.
+            </div>
+            <h3>✔ 상세 설명</h3><br/>
+            <div>
+              <h3>◾ 종목 검색</h3><br/>
+              <p> 조회할 주식 종목을 검색하여 차트와 시가, 거래량 등의 정보를 조회할 수 있도록 출력함</p>
+            </div><br/>
+            <div>
+              <h3>◾ 이달의 추천주식</h3><br/>
+              <p>  DB 데이터 활용,  코스피, 코스닥 기준으로 이달 가장 종가가 높았던 순위를 보여주도록 출력함.</p>
+            </div><br/>
+            <div>
+              <h3>◾ 거래량 순위</h3><br/>
+              <p>  DB 데이터 활용, 거개량이 가장 높았던 순위를 조회할 수 있도록 출력함</p>
+            </div><br/>
             
           </Content>
         </section>
