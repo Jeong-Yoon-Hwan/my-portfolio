@@ -15,10 +15,10 @@ function App() {
       <HashRouter>
         <Nav>
           <Title></Title>
-          <Link to="/first" style={{textDecoration: "none",color:'white',fontWeight:'bold'}}><ListBox>Project 1</ListBox></Link>
-          <Link to="/second" style={{textDecoration: "none",color:'white',fontWeight:'bold'}}><ListBox>Project 2</ListBox></Link>
-          <Link to="/third" style={{textDecoration: "none",color:'white',fontWeight:'bold'}}><ListBox>Project 3</ListBox></Link>
-          <Link to="/fourth" style={{textDecoration: "none",color:'white',fontWeight:'bold'}}><ListBox>Project 4</ListBox></Link>
+          <Link to="/first" style={{textDecoration: "none",color:'white',fontWeight:'bold'}}><ListBox>가상화페 매매 & 채팅</ListBox></Link>
+          <Link to="/second" style={{textDecoration: "none",color:'white',fontWeight:'bold'}}><ListBox>주식 정보 사이트</ListBox></Link>
+          <Link to="/third" style={{textDecoration: "none",color:'white',fontWeight:'bold'}}><ListBox>교통 정보 사이트</ListBox></Link>
+          {/* <Link to="/fourth" style={{textDecoration: "none",color:'white',fontWeight:'bold'}}><ListBox>Project 4</ListBox></Link> */}
         </Nav>
         <Main>
           <Routes>
@@ -84,5 +84,8 @@ const ListBox = styled.div`
   
   @media screen and (max-width: 1100px) {
     width:200px;
+    :hover{
+      width:210px;
+    }
   }
 `

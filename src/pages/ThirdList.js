@@ -39,8 +39,26 @@ const ThirdList = () =>{
             </div>
             
           </Skill>
-          <Content>
-            <div>교통정보 사이트</div><br></br>
+          <Content style={{fontSize:13}}>
+            <div>
+              <h3>✔ 프로젝트 기획</h3>
+              도로교통정보 api 를 활용하여 대전지역 교통 정보 사이트를 구현하였습니다.
+            </div><br/>
+            <h3>✔ 상세 설명</h3><br/>
+            <div>
+              <h3>◾ 메인 페이지</h3><br/>
+              <p> 네이버 지도 API를 활용, 현재 위치의 지도와 날씨정보, 돌발 사고정보를 확인할 수 있도록 구현하였습니다. </p>
+              <p>하단탭의 버튼을 클릭하면 해당하는 정보의 위치에 마커를 표시하도록 구현하였습니다.</p>
+              <p>네이버 검색 API를 활용하여 출발지와 목적지를 검색하고, 해당하는 경로를 조회할 수 있도록 구현하였습니다.</p>
+            </div><br/>
+            <div>
+              <h3>◾ CCTV 조회</h3><br/>
+              <p> 지도에 CCTV 위치별로 마커를 표시하고, 클릭했을 때 해당 REST API 주소로 요청하여 영상을 재생할 수 있도록 구현하였습니다.</p>
+            </div><br/>
+            <div>
+              <h3>◾ 돌발, 사고 조회</h3><br/>
+              <p> 돌발, 사고 위치별로 마커를 표시하고 클릭했을때 해당 위치와 사고내용 등의 정보를 확인할 수 있도록 출력하였습니다.</p>
+            </div><br/>
             
           </Content>
         </section>
@@ -118,7 +136,8 @@ const Skill = styled.div`
   height:100%;
   display: flex;
   flex-direction: column;
-  
+  color:#333;
+  font-size: 15px;
   gap:20px;
   border-right: 2px solid gray;
   padding-right: 10px;

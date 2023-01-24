@@ -5,9 +5,6 @@ import Img2 from "../images/second/2.png";
 import Img3 from "../images/second/3.png";
 import Img4 from "../images/second/4.png";
 
-import ReactMarkdown from 'https://esm.sh/react-markdown@7';
-
-
 const SecondList = () =>{
   
   return(
@@ -48,7 +45,7 @@ const SecondList = () =>{
             <div>
               <h3>✔ 프로젝트 기획</h3><br/>
               주식 데이터를 활용하여 여러가지 주식 정보를 조회할 수 있도록 구현한 사이트 입니다.
-            </div>
+            </div><br/>
             <h3>✔ 상세 설명</h3><br/>
             <div>
               <h3>◾ 종목 검색</h3><br/>
@@ -139,7 +136,8 @@ const Skill = styled.div`
   height:100%;
   display: flex;
   flex-direction: column;
-  
+  color:#333;
+  font-size: 15px;
   gap:20px;
   border-right: 2px solid gray;
   padding-right: 10px;

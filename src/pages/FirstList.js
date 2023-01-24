@@ -152,7 +152,8 @@ const Skill = styled.div`
   height:100%;
   display: flex;
   flex-direction: column;
-  
+  color:#333;
+  font-size: 15px;
   gap:20px;
   border-right: 2px solid gray;
   padding-right: 10px;
